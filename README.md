@@ -20,9 +20,9 @@
 
 ---
 # 5. Тест случаи според критериумот „Multiple Condition“
-Нека [null] соодветствува со null или празен објект, [X] соодветствува со било која вредност, а [notNull] соодветствува со било која вредност што не е [null]. Бидејќи имаме три услови во „if“, соодветните тест случаи се:
-1. user=[null],   user.getPassword()=X,   user.getEmail()=X   ||  очекуваме да се фрли RuntimeException("Mandatory information missing!")
-2. user=[notNull],    user.getPassword()=[null], 	user.getEmail()=X   ||  очекуваме да се фрли RuntimeException("Mandatory information missing!")
+Нека [null] соодветствува со null или празен објект, [X] соодветствува со било која вредност, а [notNull] соодветствува со било која вредност што не е [null]. Бидејќи имаме три услови во „if“ поврзани со логичко „или“, соодветните тест случаи се:
+1. user=[null],   user.getPassword()=[X],   user.getEmail()=[X]   ||  очекуваме да се фрли RuntimeException("Mandatory information missing!")
+2. user=[notNull],    user.getPassword()=[null], 	user.getEmail()=[X]   ||  очекуваме да се фрли RuntimeException("Mandatory information missing!")
 3. user=[notNull],		user.getPassword()=[notNull],	user.getEmail()=[null]   ||  очекуваме да се фрли RuntimeException("Mandatory information missing!")
 4. user=[notNull],		user.getPassword()=[notNull],	user.getEmail()=[notNull]   ||  очекуваме да продолжи програмата со нормален тек на работа, без фрлање на некој исклучок
 ---
