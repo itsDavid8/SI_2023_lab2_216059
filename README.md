@@ -11,7 +11,7 @@
 
 ---
 # 4. Тест случаи според критериумот „Every Branch“
-![everyBranch](https://github.com/itsDavid8/SI_2023_lab2_216059/assets/127624161/36dde5ad-54dd-4844-a552-8b85cbb2a4d7)
+![everyBranch](https://github.com/itsDavid8/SI_2023_lab2_216059/assets/127624161/daba439c-409a-4452-b901-74a1517a338c)
 
 Објаснување за првиот тест случај:
 Поради вредноста „null“ на променливата „user“ кодот ќе го помине гранките {A-B, B-V}.
