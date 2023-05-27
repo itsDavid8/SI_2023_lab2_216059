@@ -19,3 +19,10 @@
 Слично како првиот тест случај, водејќи се според вредностите на променливите „user“ и „allUsers“ ќе добиеме множество гранки што ќе ги помине кодот при извршување на тест случаите. Унијата на добиените множества од сите тест случаи ќе ни го даде множеството на сите гранки од Control Flow Graph за кодот, па може да воочиме дека петте тест случаи ги задоволуваат „Every Branch“ критериумот.
 
 ---
+# 5. Тест случаи според критериумот „Multiple Condition“
+Нека [null] соодветствува со null или празен објект, [X] соодветствува со било која вредност, а [notNull] соодветствува со било која вредност што не е [null]. Бидејќи имаме три услови во „if“, соодветните тест случаи се:
+1. user=[null],   user.getPassword()=X,   user.getEmail()=X   ||  очекуваме да се фрли RuntimeException("Mandatory information missing!")
+2. user=[notNull],    user.getPassword()=[null], 	user.getEmail()=X   ||  очекуваме да се фрли RuntimeException("Mandatory information missing!")
+3. user=[notNull],		user.getPassword()=[notNull],	user.getEmail()=[null]   ||  очекуваме да се фрли RuntimeException("Mandatory information missing!")
+4. 4.	user=[notNull],		user.getPassword()=[notNull],	user.getEmail()=[notNull]   ||  очекуваме да продолжи програмата со нормален тек на работа, без фрлање на некој исклучок
+---
