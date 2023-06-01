@@ -3,7 +3,8 @@
 
 ---
 ## 2. Control Flow Graph:
-![controlFlowGraph](https://github.com/itsDavid8/SI_2023_lab2_216059/assets/127624161/313a795c-d6a1-401a-8665-eacbf125e8d1)
+![controlFlowGraph](https://github.com/itsDavid8/SI_2023_lab2_216059/assets/127624161/85fa0566-ef19-44e3-9c62-ab59f2a68de0)
+
 
 ---
 ## 3. Цикломатска комплексност:
@@ -11,7 +12,8 @@
 
 ---
 ## 4. Тест случаи според критериумот „Every Branch“
-![everyBranch](https://github.com/itsDavid8/SI_2023_lab2_216059/assets/127624161/daba439c-409a-4452-b901-74a1517a338c)
+![everyBranch](https://github.com/itsDavid8/SI_2023_lab2_216059/assets/127624161/f3968971-c96f-48f3-bc2b-a6e4f2941f0f)
+
 
 Објаснување за првиот тест случај:
 Поради вредноста „null“ на променливата „user“ кодот ќе го помине гранките {A-B, B-V}.
